@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    tools:context=".ConfirmFragment">
+
+    <!-- Display the confirm message -->
+    <TextView
+        android:id="@+id/tv_confirm_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:maxLines="2"
+        android:textAlignment="center"
+        android:textColor="@color/light_blue"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Display the V animation -->
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lav_success"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        app:layout_constraintEnd_toEndOf="@id/tv_confirm_register"
+        app:layout_constraintStart_toStartOf="@+id/tv_confirm_register"
+        app:layout_constraintTop_toBottomOf="@+id/tv_confirm_register"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/success_animation" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

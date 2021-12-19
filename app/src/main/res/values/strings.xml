@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">RegisterApp</string>
+
+    <!-- Titles for fragments -->
+    <string name="title_register">הרשמה</string>
+    <string name="title_template_confirmation">ברוך הבא, %s,%s תהליך ההרשמה הסתיים בהצלחה!</string>
+
+    <!-- Button continue -->
+    <string name="button_continue">המשך</string>
+
+    <!-- Key for passing data -->
+    <string name="user_name_data_key">user_name</string>
+
+    <!-- Digits for dialog input -->
+    <string name="accepted_dialog_digits">0123456789</string>
+
+    <!-- Default values for hint -->
+    <string name="def_full_name">שם מלא</string>
+    <string name="def_email_address">כתובת מייל</string>
+    <string name="def_password">סיסמא</string>
+    <string name="def_password_confirm">וידוא סיסמא</string>
+    <string name="def_validate_code">הזן קוד אימות</string>
+
+    <!-- Error messages -->
+    <string name="error_empty_user_name">השם חייב להכיל לפחות אות אחת</string>
+    <string name="error_empty_mail">חובה להכניס כתובת מייל</string>
+    <string name="error_validate_mail">יש להזין כתובת מייל תקינה</string>
+    <string name="error_empty_password">הסיסמא חייבת להכיל לפחות תו אחד</string>
+    <string name="error_validate_password">יש להזין שתי סיסמאות זהות</string>
+    <string name="error_validate_code">הקוד אינו תואם, נסה שנית.</string>
+    <string name="error_system">Something Went Wrong, Try Again Later</string>
+</resources>
